@@ -8,7 +8,7 @@ from base64 import b64decode
 class Security:
     ALGORITHM = 'AES'
     EncryptionKey = '1BBE0E5E-4DAE-4B83-BF9A-C4029077B0BE'.encode('utf-8')
-    key_iv = EncryptionKey[:16]  # Use the first 16 bytes for both key and IV
+    key_iv = EncryptionKey[:16]
     
     @staticmethod
     def Decrypt(token):
@@ -71,7 +71,6 @@ class Security:
             return None
 
 def main(url):
-    # URL and headers based on your description
     headers = {
         "Host": "bettingtips-api.azurewebsites.net",
         "Connection": "Keep-Alive",
@@ -82,7 +81,6 @@ def main(url):
     # Send the request
     response = requests.get(url, headers=headers)
 
-    # Ensure the request was successful
     # Ensure the request was successful
     if response.status_code == 200:
         # Load JSON data from the response
