@@ -63,7 +63,7 @@ Contributions to BetBook are welcome! If you have suggestions for improvements o
 
 ## License
 
-[MIT License](LICENSE.md)
+[MIT License](LICENSE)
 
 ## Disclaimer
 
