@@ -21,6 +21,13 @@ Before running BetBook, you need to install the necessary Python modules. Ensure
 pip install requests cryptography
 ```
 
+for Termux use:
+
+```bash
+pip install requests
+pkg install python-cryptography
+```
+
 ## Usage
 
 To use BetBook, follow these steps:
