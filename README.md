@@ -2,6 +2,10 @@
 
 BetBook is a Python application designed to provide users with up-to-date betting tips, match details, and odds for various sports leagues. Utilizing data from a dedicated betting tips API, BetBook offers insights into matches, including date, leagues, teams playing, match time, betting strategies, and win rates.
 
+## Preview
+
+![BetBook Preview](https://i.imgur.com/jCMoC83.jpg)
+
 ## Features
 
 - Fetches match details including leagues, teams, match times, and dates.
